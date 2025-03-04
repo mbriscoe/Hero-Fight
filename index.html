@@ -12,28 +12,36 @@
 
 <body>
     <h1 class="text-center mb-4">Hero Fight</h1>
-    <div class="row">
-        <div id="hero" class="col-4 offset-2 text-center">
-            <h2 id="heroName">Hero</h2>
-            <h4 id="heroHealth">Health: </h4>
-            <p id="heroLastAttack">Last Attack: </p>
-            <button id="heroButton" class="btn btn-primary">Attack</button>
-        </div>
+    <div class="container col-8">
+        <div class="row">
+            <div id="hero" class="col-4 offset-2 text-center">
+                <h4 id="heroName">Hero</h4>
+                <h5 id="heroHealth">Health:</h5>
+                <p id="heroLastAttack">Last Attack: </p>
 
-        <div id="villain" class="col-4 text-center">
-            <h2 id="villainName">Villain</h2>
-            <h4 id="villainHealth">Health: </h4>
-            <p id="villainLastAttack">Last Attack: </p>
-            <button id="villainButton" class="btn btn-primary">Attack</button>
+            </div>
+
+            <div id="villain" class="col-4 text-center">
+                <h4 id="villainName">Villain</h4>
+                <h5 id="villainHealth">Health:</h5>
+                <p id="villainLastAttack">Last Attack: </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 offset-2 text-center">
+                <button id="heroButton" class="btn btn-primary">Attack</button>
+            </div>
+            <div class="col-4 text-center">
+                <button id="villainButton" class="btn btn-primary">Attack</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center mt-4">
+                <textarea id="result" class="col-8 text-center" rows="8"></textarea>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="text-center mt-4">
-            <textarea id="result" class="col-8 text-center" rows="8">
-    </textarea>
-        </div>
-    </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
